@@ -5,7 +5,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-unsigned long long int A (int m, int n)
+int A (int m, int n)
 {
     if(m == 0)
     {
@@ -30,9 +30,11 @@ int main()
     cout << "Enter n: ";
     cin >> k;
     cout << "Won't compute for A(4,2) and higher" << endl;
-    // the longest int is unsigned long long int which is only 2^64-2, while A(4,2) is 2^65533-3, 
-    // so even if stack overflow doesn't occur, cout will spit out a very wrong result that's less than 2^64-1
-    unsigned long long int AF;
+    // the longest int available in C++ is unsigned long long int which is only 2^64-2, while A(4,2) is 2^65533-3,
+    // even boost library only allows for int1024_t, which is also just 2^1024-1, so even if stack overflow 
+    // doesn't occur, cout will spit out a very wrong result, therefore it's better to leave A(m,n) as a simple int 
+    // that will fail to compute for A(4,2) and anything above, but at least won't return an incorrect answer
+    int AF;
     AF = A(j,k);
    
     cout << "Result: " << AF << endl;
