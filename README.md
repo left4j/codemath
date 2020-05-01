@@ -1,7 +1,7 @@
 # Heading
 
 ### Not much to see here, there's most probably better code for what I'm doing out there.
-### This repo functions more as an archive than anything else
+### This repo functions more like an archive than anything else
 <br>
 <br>
 <p align="center">
