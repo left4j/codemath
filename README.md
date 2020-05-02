@@ -1,6 +1,6 @@
 # Heading
 
-### Not much to see here, there's most probably better code for all this stuff out there.
+### Not much to see here, there's most probably better code for all this stuff out there (also useless in any practical sense)
 ### This repo functions more like an archive than anything else
 <br>
 <br>
