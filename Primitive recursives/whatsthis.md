@@ -1,8 +1,8 @@
-## Very primitive exponential sequence that grows rapidly.
+## A relatively large number resulting from a sum of a tetration sequence.
 ### Rough explanation: 
 <br>
 <br>
 
-![a](https://i.ibb.co/9TbnGDw/WINWORD-g-Avs-Mm-BKI4.png)
+![a](https://i.ibb.co/vmr2JGM/WINWORD-r-YREsr-RVPJ.png)
 <br>
-### *C++ code uses 1 as base, doesn't allow user input of sequence-starting number. cba to change that.
+
