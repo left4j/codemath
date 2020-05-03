@@ -1,5 +1,4 @@
-## To keep the code clean from comments and use better notations, this is used instead.
-### Written in case I forget what the code means
+## To keep the code clean from comments and use better notations, this is used instead. Also good in case I forget what the code means
 
 ```python
 from hyperop import hyperop
