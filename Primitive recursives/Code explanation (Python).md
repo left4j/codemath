@@ -12,8 +12,7 @@ import resource
 resource.setrlimit(resource.RLIMIT_STACK, (2**1024,-1))
 sys.setrecursionlimit(10**44)
 ```
-Pretty self-explanatory, sets recursion depth and stack size (those numbers are absurdly large and random)
-Resource only works on Unix, will errro out on Windows
+Pretty self-explanatory, sets recursion depth and stack size (those numbers are absurdly large and random). Resource only works on Unix, will errro out on Windows
 <br>
 ```python
 f = int(input('\n'"Input f: "))
