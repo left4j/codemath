@@ -1,3 +1,5 @@
+// needs work, probably have to write a whole new definition since C++ can't do tetration. Too bad.
+
 #include <cmath>
 #include <iostream>
 #include <sstream>
