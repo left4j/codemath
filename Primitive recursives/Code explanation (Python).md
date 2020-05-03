@@ -1,4 +1,5 @@
 ## To keep the code clean from comments and use better notations, this is used instead.
+### Written in case I forget what the code means
 
 ```python
 from hyperop import hyperop
@@ -60,7 +61,7 @@ for s2 in range (s2,p+1):
 ```
 Sum of the sequence for s2
 <br>
-```pyhton
+```python
 print('\n' "V(f,y) = ", V)
 ```
 Final output of V(f,y)
