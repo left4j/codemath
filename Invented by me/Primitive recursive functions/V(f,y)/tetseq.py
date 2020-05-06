@@ -18,10 +18,10 @@ y = int(input('\n'"Input y: "))
 for f in range(f,k+1):
    s1 += H(f,f+1)
 s2 = H(s1,y+1)
-    t = str(s2-1)
-    o = str(s2)+t
-    p = int(o)
-    V = 0
-    for s2 in range (s2,p+1):
-        V += ( H(s2,s2+1))
+t = str(s2-1)
+o = str(s2)+t
+p = int(o)
+V = 0
+for s2 in range (s2,p+1):
+   V += ( H(s2,s2+1))
 print('\n' "V(f,y) = ", V)
