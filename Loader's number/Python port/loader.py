@@ -1,1 +1,1 @@
-# attempt at "porting Loader's number to Python
+# An attempt to "port" Loader's number to Python
