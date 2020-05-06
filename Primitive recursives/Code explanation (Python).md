@@ -12,7 +12,7 @@ import resource
 resource.setrlimit(resource.RLIMIT_STACK, (2**1024,-1))
 sys.setrecursionlimit(10**44)
 ```
-Pretty self-explanatory, sets recursion depth and stack size (those numbers are absurdly large and random). Resource only works on Unix, will error out on Windows
+Pretty self-explanatory, sets recursion depth and stack size (those numbers are absurdly large and random). Resource only works on Unix, will error out on Windows. Now just hangs out there in comment form, since there's no way this petty shit will help compute the function in any way
 <br>
 ```python
 f = int(input('\n'"Input f: "))
@@ -27,10 +27,7 @@ H = hyperop(4)
 s1 = 0
 y = int(input('\n'"Input y: "))
 for f in range(f,k+1):
-  j = H(f,f+1)
-  if f == k:
-    break
-  s1 += j
+  s1 += H(f,f+1)
 ```
 Define tetration, get user to input y (better here, before the sequence starts computing),
 start a loop going from f to ^↓(f^f-1) in which a sequence with exponential towers is computed.
@@ -53,10 +50,7 @@ Same stuff as before
 ```python
 V = 0
 for s2 in range (s2,p+1):
-  e = (H(s2,s2+1))
-  if s2 == p:
-    break
-  V += e
+  V += (H(s2,s2+1))
 ```
 Sum of the sequence for s2
 <br>
