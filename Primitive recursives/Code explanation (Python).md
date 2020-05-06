@@ -3,7 +3,7 @@
 ```python
 from hyperop import hyperop
 ```
-A custom library for hyperoperator, used here for tetration
+A custom library for hyperoperators, used here for tetration
 <br>
 
 ```python
