@@ -3,6 +3,6 @@
 ### Rough explanation: 
 <br>
 
-![a](https://i.ibb.co/N9h2sXS/WINWORD-KJ36-Guk8-Xi.png)
+![a](https://i.ibb.co/YB79xM0/image.png)
 <br>
 
