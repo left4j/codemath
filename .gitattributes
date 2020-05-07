@@ -1,8 +1,4 @@
-* linguist-vendored
-*.cc linguist-vendored=true
-*.hh linguist-vendored=true
-*.md linguist-vendored=true
-*.cc linguist-detectable=false
-*.hh linguist-detectable=false
-*.c linguist-detectable=false
-*.md linguist-detectable=false
+*.cc linguist-vendored
+*.hh linguist-vendored
+*.md linguist-vendored
+*.c linguist-vendored
