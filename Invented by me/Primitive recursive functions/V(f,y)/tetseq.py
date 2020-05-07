@@ -23,5 +23,5 @@ o = str(s2)+t
 p = int(o)
 V = 0
 for s2 in range (s2,p+1):
-   V += ( H(s2,s2+1))
+   V += (H(s2,s2+1))
 print('\n' "V(f,y) = ", V)
