@@ -1,11 +1,10 @@
-import math
+'''
 import sys
 import resource
-# resorce only works on Unix, will error out on Windows
-# Might need higher values for both recursion depth and stack size
-# ...to compute sth larger than A(4,2), but probs still won't work
 resource.setrlimit(resource.RLIMIT_STACK, (2**64,-1))
 sys.setrecursionlimit(10**9)
+Kinda useless, will just leave here for whatever's sake
+'''
 j = int(input('\n'"Enter m: "))
 k = int(input("Enter n: "))
 print('\n'"A(4,2) and above will not work, unless ran on a supercomputer")
