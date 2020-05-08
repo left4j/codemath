@@ -15,8 +15,7 @@ p = int(o)
 e = 0
 for s2 in range (s2,p+1):
     e += H(s2,s2+1)
-print('\n'"Convert output to scientific notation? Answer y/n")
-SN = input()
+SN = input('\n'"Convert output to scientific notation? Answer y/n")
 if SN == "y":
     V = decimal.Context(prec=3).create_decimal(e)
 elif SN == "n":
