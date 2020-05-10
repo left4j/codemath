@@ -1,4 +1,3 @@
-*.* linguist-language=LOLCODE
 *.cc linguist-vendored
 *.hh linguist-vendored
 *.md linguist-vendored
