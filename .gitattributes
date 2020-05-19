@@ -2,4 +2,5 @@
 *.hh linguist-vendored
 *.md linguist-vendored
 *.c linguist-vendored
+*.ipynb linguist-vendored
 *Makefile linguist-vendored
